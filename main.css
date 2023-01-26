@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    max-width: 880px;
+    width: 100%; /*determina a largura da área de conteúdo de um elemento. A área de conteúdo fica dentro do preenchimento, da borda, e da margem de um elemento.*/
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 40px;
+}
+
+header img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+form {
+    padding: 30px;
+    text-align: center;
+}
+
+input, button {
+    padding: 6px 15px;
+}
+
+section h2 {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+ol {
+    margin: 20px;
+    font-size: 20px;
+    flex-wrap: wrap; 
+}
+
+ol li {
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item-risco {
+    text-decoration: line-through;
+}
